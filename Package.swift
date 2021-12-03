@@ -1,8 +1,10 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.3
+
+
 import PackageDescription
 
 let package = Package(
-  name: "CalendarControl",
+  name: "PosEngine",
   platforms: [
     .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
   ],
@@ -14,6 +16,7 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PosEngine",
-      path: "./Sources/PosEngine.xcframework")
+      path: "./Sources/PosEngine.xcframework"
+    )
   ]
 )
