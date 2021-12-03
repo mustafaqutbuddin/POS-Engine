@@ -1,4 +1,0 @@
-framework module PosEngine {
-  header "PosEngine-Swift.h"
-  requires objc
-}
